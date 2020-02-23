@@ -6,6 +6,9 @@ def fibo(n):
     elif n == 1: return 1
     else: return fibo(n-1)+ fibo(n-2)
 
+def fib(n):
+    return str(fibo(n))
+
 def sayHello(name):
     return "Hello " + name + "!"
 
@@ -22,3 +25,5 @@ def prequel():
         "I have the POWER! UNLIMITED… POWER!",
         "I’ll try spinning. That’s a good trick. Whoa-ah!"]
     return random.choice(quotes)
+
+print(fib(10))
