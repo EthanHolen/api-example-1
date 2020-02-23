@@ -14,7 +14,7 @@ def sayHello(name):
 
 
 def firstLast(first, last):
-    return first + " " + last
+    return "Hello " + first + " " + last + "!"
 
 def prequel():
     quotes = [
@@ -25,5 +25,3 @@ def prequel():
         "I have the POWER! UNLIMITED… POWER!",
         "I’ll try spinning. That’s a good trick. Whoa-ah!"]
     return random.choice(quotes)
-
-print(fib(10))
