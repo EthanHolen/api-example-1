@@ -9,6 +9,10 @@ def fibo(n):
 def sayHello(name):
     return "Hello " + name + "!"
 
+
+def firstLast(first, last):
+    return first + " " + last
+
 def prequel():
     quotes = [
         "Don’t try it, Anakin. I have the high ground!", 
